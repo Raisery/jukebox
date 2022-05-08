@@ -26,7 +26,7 @@ RUN YOUTUBE_DL_FILENAME="yt-dlp" node -p "console.log((require('prism-media').FF
 FROM hazmi35/node:16
 
 LABEL name "Jukebox"
-LABEL maintainer "Hazmi35 <contact@hzmi.xyz>"
+LABEL maintainer "Raisery <raisery@gmail.com>"
 
 # Install python3 (required for youtube-dl/yt-dlp) then create cache and logs directory
 # Plus delete user "node" and create user "jukebox"
